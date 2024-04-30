@@ -33,14 +33,18 @@ reload_template:
 	cat main.ms > .trash/old.ms
 	echo "\
 	.TL \n\
-	$(PROJECT_NAME) \n\
+	Template \n\
 	.AU \n\
-	$(AUTHOR) \n\
+	the baddest bitch around\n\
 	.AB \n\
 	abstract \n\
 	.AE \n\
 	.NH \n\
 	section \n\
 	.PP \n\
-	lorum \n\
+	lorum testing\n\
+	\n\
+	.PSPIC -I 2i "cache/frog.eps" 2i\n\
 	" > main.ms
+
+
